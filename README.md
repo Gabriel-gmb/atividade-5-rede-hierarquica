@@ -1,12 +1,12 @@
 # Atividade 5 – Configurações Básicas de Switches em Rede Hierárquica
 
-## 📌 Descrição
+## Descrição
 
 Este repositório apresenta a continuação da prática de simulação de um ambiente de rede hierárquico desenvolvida no Cisco Packet Tracer.
 
 Nesta atividade foram realizadas as configurações básicas de todos os switches da topologia, contemplando os equipamentos das camadas de **Core**, **Distribuição** e **Acesso (Edge)**.
 
-## 🎯 Objetivo
+## Objetivo
 
 Realizar as configurações básicas solicitadas em todos os switches da rede:
 
@@ -16,7 +16,7 @@ Realizar as configurações básicas solicitadas em todos os switches da rede:
 - criptografia de senhas;
 - banner de aviso.
 
-## 🖧 Switches configurados
+## Switches configurados
 
 A topologia possui oito switches:
 
@@ -26,7 +26,7 @@ A topologia possui oito switches:
 | Distribuição | SW-DIST-01 e SW-DIST-02 |
 | Edge | SW-EDGE-01, SW-EDGE-02, SW-EDGE-03 e SW-EDGE-04 |
 
-## ⚙️ Configurações realizadas
+## Configurações realizadas
 
 O padrão abaixo foi aplicado aos oito switches, alterando apenas o `hostname` de acordo com cada equipamento.
 
@@ -92,7 +92,7 @@ Foi configurado um banner de aviso para os usuários que acessarem os equipament
 banner motd #ACESSO RESTRITO - SOMENTE USUARIOS AUTORIZADOS#
 ```
 
-## ✅ Verificação
+## Verificação
 
 As configurações foram verificadas por meio do comando:
 
@@ -116,7 +116,7 @@ line con 0
 
 Após a configuração, o acesso ao console solicita autenticação e o comando `enable` solicita a senha do modo privilegiado.
 
-## 💾 Salvamento das configurações
+## Salvamento das configurações
 
 Para manter as configurações após a reinicialização dos equipamentos foi utilizado:
 
@@ -124,11 +124,11 @@ Para manter as configurações após a reinicialização dos equipamentos foi ut
 copy running-config startup-config
 ```
 
-## 📷 Evidências
+## Evidências
 
 A pasta `capturas` pode ser utilizada para armazenar os prints de comprovação da atividade, incluindo a topologia e as saídas do `show running-config` dos switches.
 
-## 📁 Estrutura sugerida
+## Estrutura sugerida
 
 ```text
 atividade-5-rede-hierarquica/
@@ -141,7 +141,7 @@ atividade-5-rede-hierarquica/
 
 > O arquivo `.pkt` deve ser adicionado após salvar a versão final da atividade no Cisco Packet Tracer.
 
-## 👨‍💻 Autor
+## Autor
 
 **Gabriel Mota Barroso**
 
