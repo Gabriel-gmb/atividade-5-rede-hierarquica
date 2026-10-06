@@ -128,39 +128,39 @@ Abaixo estão os espaços destinados às capturas de tela de cada switch. Para q
 
 ### SW-CORE-01
 
-![Configuração do SW-CORE-01](capturas/02-sw-core-01.png)
+![Configuração do SW-CORE-01](<img width="1920" height="1032" alt="Captura de tela 2026-10-06 163836" src="https://github.com/user-attachments/assets/138a4869-f227-4d56-8c82-7489daf86d86" />)
 
 ### SW-CORE-02
 
-![Configuração do SW-CORE-02](capturas/03-sw-core-02.png)
+![Configuração do SW-CORE-02](<img width="1920" height="1032" alt="Captura de tela 2026-10-06 164140" src="https://github.com/user-attachments/assets/c97ccadc-9f5c-4e20-a0c5-17fd1dbe01e0" />)
 
 ### SW-DIST-01
 
-![Configuração do SW-DIST-01](capturas/04-sw-dist-01.png)
+![Configuração do SW-DIST-01](<img width="1920" height="1032" alt="Captura de tela 2026-10-06 170410" src="https://github.com/user-attachments/assets/9d1e0406-520c-4d83-a407-fc108b4869ed" />)
 
 ### SW-DIST-02
 
-![Configuração do SW-DIST-02](capturas/05-sw-dist-02.png)
+![Configuração do SW-DIST-02](<img width="1920" height="1032" alt="Captura de tela 2026-10-06 170621" src="https://github.com/user-attachments/assets/d4234d95-98af-47d6-8592-fd0416b1ced6" />)
 
 ### SW-EDGE-01
 
-![Configuração do SW-EDGE-01](capturas/06-sw-edge-01.png)
+![Configuração do SW-EDGE-01](<img width="1920" height="1032" alt="Captura de tela 2026-10-06 171911" src="https://github.com/user-attachments/assets/797fd3ea-7fd1-44c4-b478-33254408d004" /><img width="1920" height="1032" alt="Captura de tela 2026-10-06 171919" src="https://github.com/user-attachments/assets/dd3c2aab-803e-4464-85fd-65de769c3190" />
+)
 
 ### SW-EDGE-02
 
-![Configuração do SW-EDGE-02](capturas/07-sw-edge-02.png)
+![Configuração do SW-EDGE-02](<img width="1920" height="1032" alt="Captura de tela 2026-10-06 172043" src="https://github.com/user-attachments/assets/366daada-52bb-4909-891b-3407ef1b2408" /><img width="1920" height="1032" alt="Captura de tela 2026-10-06 172049" src="https://github.com/user-attachments/assets/5b6f0c34-8c1c-4977-8d37-cbec13ba2f28" />
+)
 
 ### SW-EDGE-03
 
-![Configuração do SW-EDGE-03](capturas/08-sw-edge-03.png)
+![Configuração do SW-EDGE-03](<img width="1920" height="1032" alt="Captura de tela 2026-10-06 172146" src="https://github.com/user-attachments/assets/daa22a49-f012-4511-9144-c39d6eaec5c5" /><img width="1920" height="1032" alt="Captura de tela 2026-10-06 172142" src="https://github.com/user-attachments/assets/c6eb4872-6970-444e-9365-a4a6de5faa52" />
+)
 
 ### SW-EDGE-04
 
-![Configuração do SW-EDGE-04](capturas/09-sw-edge-04.png)
-
-### Teste de autenticação
-
-![Teste de autenticação](capturas/10-teste-autenticacao.png)
+![Configuração do SW-EDGE-04](<img width="1920" height="1032" alt="Captura de tela 2026-10-06 172228" src="https://github.com/user-attachments/assets/8ac0a155-2e92-4f48-9f02-db732b35d971" /><img width="1920" height="1032" alt="Captura de tela 2026-10-06 172224" src="https://github.com/user-attachments/assets/10a8ca41-9189-4267-b5c7-b03f17d216eb" />
+)
 
 ## Salvamento das configurações
 
@@ -168,24 +168,4 @@ Para manter as configurações após a reinicialização dos equipamentos foi ut
 
 ```cisco
 copy running-config startup-config
-```
-
-## Estrutura sugerida
-
-```text
-atividade-5-rede-hierarquica/
-├── README.md
-├── configuracoes.txt
-├── capturas/
-│   ├── 01-topologia.png
-│   ├── 02-sw-core-01.png
-│   ├── 03-sw-core-02.png
-│   ├── 04-sw-dist-01.png
-│   ├── 05-sw-dist-02.png
-│   ├── 06-sw-edge-01.png
-│   ├── 07-sw-edge-02.png
-│   ├── 08-sw-edge-03.png
-│   ├── 09-sw-edge-04.png
-│   └── 10-teste-autenticacao.png
-└── atividade-5-rede-hierarquica.pkt
 ```
