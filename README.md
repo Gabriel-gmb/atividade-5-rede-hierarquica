@@ -138,11 +138,3 @@ atividade-5-rede-hierarquica/
 │   └── README.md
 └── atividade-5-rede-hierarquica.pkt
 ```
-
-> O arquivo `.pkt` deve ser adicionado após salvar a versão final da atividade no Cisco Packet Tracer.
-
-## Autor
-
-**Gabriel Mota Barroso**
-
-Atividade desenvolvida para a disciplina de **Comutação de Redes Locais**.
