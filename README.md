@@ -16,6 +16,12 @@ Realizar as configurações básicas solicitadas em todos os switches da rede:
 - criptografia de senhas;
 - banner de aviso.
 
+## Topologia
+
+Adicione aqui a imagem da topologia completa da rede.
+
+![Topologia da rede](capturas/01-topologia.png)
+
 ## Switches configurados
 
 A topologia possui oito switches:
@@ -116,6 +122,46 @@ line con 0
 
 Após a configuração, o acesso ao console solicita autenticação e o comando `enable` solicita a senha do modo privilegiado.
 
+## Evidências das configurações
+
+Abaixo estão os espaços destinados às capturas de tela de cada switch. Para que as imagens apareçam automaticamente no README, coloque os arquivos dentro da pasta `capturas` utilizando exatamente os nomes indicados.
+
+### SW-CORE-01
+
+![Configuração do SW-CORE-01](capturas/02-sw-core-01.png)
+
+### SW-CORE-02
+
+![Configuração do SW-CORE-02](capturas/03-sw-core-02.png)
+
+### SW-DIST-01
+
+![Configuração do SW-DIST-01](capturas/04-sw-dist-01.png)
+
+### SW-DIST-02
+
+![Configuração do SW-DIST-02](capturas/05-sw-dist-02.png)
+
+### SW-EDGE-01
+
+![Configuração do SW-EDGE-01](capturas/06-sw-edge-01.png)
+
+### SW-EDGE-02
+
+![Configuração do SW-EDGE-02](capturas/07-sw-edge-02.png)
+
+### SW-EDGE-03
+
+![Configuração do SW-EDGE-03](capturas/08-sw-edge-03.png)
+
+### SW-EDGE-04
+
+![Configuração do SW-EDGE-04](capturas/09-sw-edge-04.png)
+
+### Teste de autenticação
+
+![Teste de autenticação](capturas/10-teste-autenticacao.png)
+
 ## Salvamento das configurações
 
 Para manter as configurações após a reinicialização dos equipamentos foi utilizado:
@@ -124,10 +170,6 @@ Para manter as configurações após a reinicialização dos equipamentos foi ut
 copy running-config startup-config
 ```
 
-## Evidências
-
-A pasta `capturas` pode ser utilizada para armazenar os prints de comprovação da atividade, incluindo a topologia e as saídas do `show running-config` dos switches.
-
 ## Estrutura sugerida
 
 ```text
@@ -135,6 +177,15 @@ atividade-5-rede-hierarquica/
 ├── README.md
 ├── configuracoes.txt
 ├── capturas/
-│   └── README.md
+│   ├── 01-topologia.png
+│   ├── 02-sw-core-01.png
+│   ├── 03-sw-core-02.png
+│   ├── 04-sw-dist-01.png
+│   ├── 05-sw-dist-02.png
+│   ├── 06-sw-edge-01.png
+│   ├── 07-sw-edge-02.png
+│   ├── 08-sw-edge-03.png
+│   ├── 09-sw-edge-04.png
+│   └── 10-teste-autenticacao.png
 └── atividade-5-rede-hierarquica.pkt
 ```
